@@ -6,7 +6,7 @@ body {
   text-align: center;
   height: 100vh;
   justify-content: center;
-  background-color: black;
+  background-color: #020527;
   overflow: hidden;
 }
 
@@ -16,6 +16,7 @@ body {
   height: 200px;
   transform-style: preserve-3d;
   transform: perspective(1000px) rotate(0deg);
+  transition: transform 0.7s;
 }
 
 .image-container span {
@@ -31,6 +32,8 @@ body {
   left: 0;
   top: 0;
   width: 100%;
+  border: 5px groove burlywood;
+  box-shadow: 0 0 10px 5px #f5e505;
 }
 
 .btn-container {
