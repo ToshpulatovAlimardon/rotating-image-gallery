@@ -65,25 +65,25 @@ body {
 }
 
 /* Responsive Phone */
-@media screen and (max-width: 500px) {  
+@media screen and (max-width: 500px) {
   .image-container {
     width: 100px;
     height: 100px;
   }
-  
+
   .image-container span {
     transform: rotateY(calc(var(--i) * 45deg)) translateZ(200px);
   }
-  
+
   .image-container span img {
     border: 3px groove burlywood;
     box-shadow: 0 0 7px 3px #f5e505;
   }
-  
+
   .btn-container {
     width: 100%;
   }
-  
+
   .btn {
     padding: 7px 14px;
     font-size: 13px;
